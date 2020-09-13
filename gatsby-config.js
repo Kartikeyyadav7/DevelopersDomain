@@ -12,7 +12,7 @@ const netlifyCmsPaths = {
 
 const {
   NODE_ENV,
-  URL: NETLIFY_SITE_URL = "https://www.example.com",
+  URL: NETLIFY_SITE_URL = "https://www.developersdomain.netlify.app",
   DEPLOY_PRIME_URL: NETLIFY_DEPLOY_URL = NETLIFY_SITE_URL,
   CONTEXT: NETLIFY_ENV = NODE_ENV,
 } = process.env
@@ -41,6 +41,7 @@ module.exports = {
         name: `assets`,
       },
     },
+
     {
       resolve: "gatsby-plugin-robots-txt",
       options: {
@@ -116,6 +117,7 @@ module.exports = {
       },
     },
     `gatsby-plugin-advanced-sitemap`,
+    `gatsby-plugin-sitemap`,
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
