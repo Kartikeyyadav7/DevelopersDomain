@@ -1,11 +1,15 @@
 ---
 template: index-page
 slug: /
-title: Wyatt Morriss
-tagline: Graphic Designer
-featuredImage: /assets/toa-heftiba-0rlfirsdvzu-unsplash.jpg
+title: Hi there !
+tagline: ""
+featuredImage: ""
 cta:
   ctaText: Know more
   ctaLink: /about
 ---
-He is a award winning gaming graphic designer, based in sunny side of California. Working as Principal designer at Bethesda
+<!--StartFragment-->
+
+Developers Domain is a developer's blog, where we try to solve your problems make development as simple as possible, so you can start building your dream projects right away.
+
+<!--EndFragment-->
