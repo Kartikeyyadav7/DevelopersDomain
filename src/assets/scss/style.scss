@@ -134,8 +134,10 @@
     line-height: 1.4;
     margin-bottom: 30px;
   }
+
   .featured-image {
     border-radius: 12px;
+    margin: 40px 0;
   }
   @media (max-width: $breakpoint-md) {
     padding-top: 30px;
@@ -260,8 +262,9 @@ article img {
 
 .blog-post {
   .featured-image {
-    min-height: 50vh;
+    // min-height: 50vh;
     border-radius: 12px;
+    margin: 40px 0;
   }
 }
 // Buttons
