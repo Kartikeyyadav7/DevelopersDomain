@@ -11,7 +11,6 @@ description: >-
 featuredImage: /assets/howtowebdevproj.png
 ---
 
-
 So you have learned the required skills for web development and want to know what can be the best way to start a project
 
 ### **Doubts?**
@@ -73,8 +72,6 @@ a. So now to keep everything organized you can also use project management tools
 b. Well if you can, you must try to document each and everything you do while doing a project so that it will instill confidence in the future projects you will build.
 
 ![Deploying the project](/assets/undraw_uploading_go67.png "Deploying the project")
-
-
 
 #### 5. Testing and Deployment
 
