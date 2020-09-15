@@ -69,6 +69,7 @@ const SEO = ({ title, description, image, article }) => {
       {linkedInUsername && (
         <meta name="linkedIn:creator" content={linkedInUsername} />
       )}
+      {seo.image && <meta name="linkedIn:image" content={seo.image} />}
     </Helmet>
   )
 }
