@@ -33,8 +33,6 @@ Now that you have seen the demand, let us motivate you by showing you the salari
 
 ![Payscale of frontend developer](/assets/frontend-payscale.jpg "Payscale of frontend developer")
 
-
-
 I hope this has motivated you enough and these are just that stats on what companies are paying you for your work but when you start helping people through your skill by freelancing then you truly will understand the money people are willing to pay if you make their customers convert through your web design and development skills
 
 Just as they say you have to be good at one thing and if you are awesome in one particular domain then you can really go forward
@@ -42,8 +40,6 @@ Just as they say you have to be good at one thing and if you are awesome in one 
 ## 3.Freelance
 
 ![Freelancer prices](/assets/frontend-developer-salaries-freelance-rates.png "Freelance prices of frontend developers")
-
-
 
 ## How To Get Started ?
 
@@ -89,10 +85,10 @@ After JS you can start learning DOM (Document Object Model) which is more of the
 
 Now if you want to further go into the depths of things you can always learn frontend frameworks like Angular, React, Vue, etc there are many of then, what a framework does is it really makes the process of making web pages and web apps super easy and every framework has its own learning curve and my advice would start learning and using one and understand what suits you the best
 
-So you are basically ready to call yourself a frontend developer
+Yay! So you are basically ready to call yourself a frontend developer
 
+Hope you found this article useful
 
+Do let me know if any feedback through [Twitter](https://twitter.com/kartikey_yadav7) and [Instagram](https://www.instagram.com/developers.domain/)
 
-
-
-<!--EndFragment-->
+Happy coding
