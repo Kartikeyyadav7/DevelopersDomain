@@ -89,6 +89,8 @@ Yay! So you are basically ready to call yourself a frontend developer
 
 ### Some Personal Advice
 
+Join a community where you can ask doubts, I would recommend some discord or telegram group of web developers and lastly, if you want to buy any courses on web dev so on Udemy there are instructors like [Colt Steele](https://www.udemy.com/course/the-web-developer-bootcamp/), Andrei Neagoie, Dr. Angela Yu, etc they teach web dev in a proper manner you can have a look at them and find yourself an awesome course
+
 Hope you found this article useful
 
 Do let me know if any feedback through [Twitter](https://twitter.com/kartikey_yadav7) and [Instagram](https://www.instagram.com/developers.domain/)
