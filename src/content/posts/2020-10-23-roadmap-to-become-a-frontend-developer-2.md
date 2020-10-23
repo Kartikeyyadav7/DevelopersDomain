@@ -1,7 +1,7 @@
 ---
 template: blog-post
 title: Roadmap To Become A Frontend Developer
-slug: /roadmap-to-frontend-developer-1
+slug: /roadmap-to-frontend-developer
 date: 2020-10-23 18:46
 description: Don't start learning frontend web development before knowing these
   important things
