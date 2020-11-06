@@ -1,46 +1,45 @@
 import React from "react"
-// import { Link, graphql } from "gatsby"
-import { graphql } from "gatsby"
+import { Link, graphql } from "gatsby"
 import Img from "gatsby-image"
-// import { RiArrowRightLine, RiArrowLeftLine } from "react-icons/ri"
+import { RiArrowRightLine, RiArrowLeftLine } from "react-icons/ri"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 
-// const Pagination = props => (
-//   <div className="pagination -post">
-//     <ul>
-//       {props.previous && props.previous.frontmatter.template === "blog-post" && (
-//         <li>
-//           <Link to={props.previous.frontmatter.slug} rel="prev">
-//             <p>
-//               <span className="icon -left">
-//                 <RiArrowLeftLine />
-//               </span>{" "}
-//               Previous
-//             </p>
-//             <span className="page-title">
-//               {props.previous.frontmatter.title}
-//             </span>
-//           </Link>
-//         </li>
-//       )}
-//       {props.next && props.next.frontmatter.template === "blog-post" && (
-//         <li>
-//           <Link to={props.next.frontmatter.slug} rel="next">
-//             <p>
-//               Next{" "}
-//               <span className="icon -right">
-//                 <RiArrowRightLine />
-//               </span>
-//             </p>
-//             <span className="page-title">{props.next.frontmatter.title}</span>
-//           </Link>
-//         </li>
-//       )}
-//     </ul>
-//   </div>
-// )
+const Pagination = props => (
+  <div className="pagination -post">
+    <ul>
+      {props.previous && props.previous.frontmatter.template === "blog-post" && (
+        <li>
+          <Link to={props.previous.frontmatter.slug} rel="prev">
+            <p>
+              <span className="icon -left">
+                <RiArrowLeftLine />
+              </span>{" "}
+              Previous
+            </p>
+            <span className="page-title">
+              {props.previous.frontmatter.title}
+            </span>
+          </Link>
+        </li>
+      )}
+      {props.next && props.next.frontmatter.template === "blog-post" && (
+        <li>
+          <Link to={props.next.frontmatter.slug} rel="next">
+            <p>
+              Next{" "}
+              <span className="icon -right">
+                <RiArrowRightLine />
+              </span>
+            </p>
+            <span className="page-title">{props.next.frontmatter.title}</span>
+          </Link>
+        </li>
+      )}
+    </ul>
+  </div>
+)
 
 const Post = ({ data, pageContext }) => {
   const { markdownRemark } = data // data.markdownRemark holds your post data
@@ -48,12 +47,12 @@ const Post = ({ data, pageContext }) => {
   const Image = frontmatter.featuredImage
     ? frontmatter.featuredImage.childImageSharp.fluid
     : ""
-  // const { previous, next } = pageContext
+  const { previous, next } = pageContext
 
-  // let props = {
-  //   previous,
-  //   next,
-  // }
+  let props = {
+    previous,
+    next,
+  }
 
   return (
     <Layout className="page">
@@ -75,8 +74,9 @@ const Post = ({ data, pageContext }) => {
           {Image ? (
             <Img
               fluid={Image}
-              // objectFit="cover"
+              objectFit="cover"
               objectPosition="50% 50%"
+              style={{ maxWidth: "none", maxHeight: "none" }}
               alt={frontmatter.title + " - Featured image"}
               className="featured-image"
             />
@@ -90,7 +90,7 @@ const Post = ({ data, pageContext }) => {
           dangerouslySetInnerHTML={{ __html: html }}
         />
       </article>
-      {/* {(previous || next) && <Pagination {...props} />} */}
+      {(previous || next) && <Pagination {...props} />}
     </Layout>
   )
 }
@@ -110,12 +110,7 @@ export const pageQuery = graphql`
         description
         featuredImage {
           childImageSharp {
-            fluid(
-              maxWidth: 1980
-              maxHeight: 768
-              quality: 80
-              srcSetBreakpoints: [350, 700, 1050, 1400]
-            ) {
+            fluid(quality: 80, srcSetBreakpoints: [350, 700, 1050, 1400]) {
               ...GatsbyImageSharpFluid
               ...GatsbyImageSharpFluidLimitPresentationSize
             }
