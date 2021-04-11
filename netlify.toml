@@ -7,3 +7,7 @@
 
 [[plugins]]
   package = "netlify-plugin-gatsby-cache"
+
+[[redirects]]
+  from = "https://developersdomain.netlify.app/"
+  to = "https://aviatecoders.com"
