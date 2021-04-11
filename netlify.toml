@@ -10,4 +10,6 @@
 
 [[redirects]]
   from = "https://developersdomain.netlify.app/"
-  to = "https://aviatecoders.com"
+  to = "https://www.aviatecoders.com/"
+  status = 301
+  force = true
