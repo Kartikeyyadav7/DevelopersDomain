@@ -12,7 +12,7 @@ const netlifyCmsPaths = {
 
 const {
   NODE_ENV,
-  URL: NETLIFY_SITE_URL = "https://www.developersdomain.netlify.app",
+  URL: NETLIFY_SITE_URL = "https://www.aviatecoders.com",
   DEPLOY_PRIME_URL: NETLIFY_DEPLOY_URL = NETLIFY_SITE_URL,
   CONTEXT: NETLIFY_ENV = NODE_ENV,
 } = process.env
@@ -23,14 +23,14 @@ const siteUrl = isNetlifyProduction ? NETLIFY_SITE_URL : NETLIFY_DEPLOY_URL
 
 module.exports = {
   siteMetadata: {
-    title: "Developers Domain",
+    title: "Aviate Coders",
     titleTemplate: "%s",
     description:
-      "At Developers Domain we provide the content related to Web development and Web Design and anything related to technology",
+      "At Aviate Coders we provide the content related to Web development and Web Design and anything related to technology",
     siteUrl,
     image: "/assets/logopng.png",
     linkedInUsername: "kartikeyyadav",
-    twitterUsername: "@kartikey_yadav7",
+    twitterUsername: "@aviatecoders",
     ga: "UA-177419186-1",
   },
   plugins: [
@@ -121,12 +121,12 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Developers Domain`,
-        short_name: `Developers Domain`,
+        name: `Aviate Coders`,
+        short_name: `Aviate Coders`,
         start_url: `/`,
         background_color: `#f7f0eb`,
         theme_color: `#3F51B5`,
-        display: `Developers Domain`,
+        display: `Aviate Coders`,
         icon: `static/assets/logopng.png`,
       },
     },
