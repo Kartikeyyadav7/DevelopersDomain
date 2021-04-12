@@ -1,6 +1,6 @@
 ---
 template: blog-post
-title: Creating buttons in React Native
+title: Creating Custom Buttons in React Native
 slug: /creating-custom-buttons-in-react-native
 date: 2021-04-12 15:55
 description: Creating a custom button gives you a great and seamlessly
