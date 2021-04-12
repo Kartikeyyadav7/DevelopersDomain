@@ -1,12 +1,12 @@
 {
   "meta": {
-    "title": "Developers Domain",
+    "title": "Aviate Coders",
     "titleTemplate": "%s",
-    "description": "At Developers Domain we provide the content related to Web development, design and anything related to technology",
-    "siteUrl": "https://developersdomain.netlify.app",
+    "description": "At Aviate Coders we provide the content related to Web development, design and anything related to technology",
+    "siteUrl": "https://www.aviatecoders.com",
     "image": "/assets/logopng.png",
     "linkedInUsername": "kartikeyyadav",
-    "twitterUsername": "@kartikey_yadav7"
+    "twitterUsername": "@aviatecoders"
   },
   "ga": "UA-177419186-1"
 }
