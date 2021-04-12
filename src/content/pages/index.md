@@ -10,6 +10,6 @@ cta:
 
 <!--StartFragment-->
 
-Developers Domain is a developer's blog, where we try to solve your problems make development as simple as possible, so you can start building your dream projects right away.
+Aviate Coders is a blog site for coders, where we try to solve your problems make development and coding as simple as possible, so you can start building your dream projects or get the desired job right away.
 
 <!--EndFragment-->

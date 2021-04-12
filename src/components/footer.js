@@ -4,11 +4,11 @@ import { GoMarkGithub } from "react-icons/go"
 
 const Footer = () => (
   <footer className="site-footer">
-    <p>&copy; {new Date().getFullYear()} Developers Domain &bull; </p>
+    <p>&copy; {new Date().getFullYear()} Aviate Coders &bull; </p>
     <div className="site-footer-icons">
       <div className="social-icons">
         <a
-          href="https://twitter.com/kartikey_yadav7"
+          href="https://twitter.com/aviatecoders"
           target="_blank"
           rel="noopener noreferrer"
         >
@@ -36,7 +36,7 @@ const Footer = () => (
       </div>
       <div className="social-icons">
         <a
-          href="https://www.instagram.com/developers.domain/"
+          href="https://www.instagram.com/aviatecoders"
           target="_blank"
           rel="noopener noreferrer"
         >
