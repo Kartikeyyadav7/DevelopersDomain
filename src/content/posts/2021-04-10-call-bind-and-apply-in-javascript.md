@@ -43,7 +43,7 @@ const student1 = {
 student1.increment()
 ```
 
-What I have done here is I have defined an object named student1 and given name and percent and also an increment method to it so that the percent can be incremented whenever the method is called( if you don't know about the "this" keyword please refer to [this ](https://developersdomain.netlify.app/how-this-keyword-works-in-javascript)article)
+What I have done here is I have defined an object named student1 and given name and percent and also an increment method to it so that the percent can be incremented whenever the method is called( if you don't know about the "this" keyword please refer to [this](https://www.aviatecoders.com/how-this-keyword-works-in-javascript)[ ](https://developersdomain.netlify.app/how-this-keyword-works-in-javascript)article)
 
 Now what I want to do is used use increment method of the student1 and use it for another object named student2
 
@@ -180,7 +180,7 @@ And if any of you are wondering why is singer.sing()() is called twice well beca
 
 Was the article helpful? Do you have any doubts? Any topic you would like us to cover?
 
-Reach out to us on [Twitter](https://twitter.com/kartikey_yadav7) and [Instagram](https://www.instagram.com/developers.domain/) where we try to provide more value in threads and carousal formats
+Reach out to us on [](https://twitter.com/kartikey_yadav7)[Twitter](https://twitter.com/aviatecoders) and [Instagram](https://instagram.com/aviatecoders) where we try to provide more value in threads and carousal formats
 
 Thank You for your time
 
