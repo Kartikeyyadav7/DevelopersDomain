@@ -10,7 +10,6 @@ description: >-
   confident.
 featuredImage: /assets/howtowebdevproj.png
 ---
-
 So you have learned the required skills for web development and want to know what can be the best way to start a project
 
 ### **Doubts?**
@@ -49,7 +48,7 @@ a. Now I know you are excited to start building your awesome project but first, 
 
 b. Well, you can use any software like Adobe Xd, Figma, Sketch, etc for doing the same.
 
-c. I know what you are thinking why should I do this I am no designer but you know what it's not about designing each piece its just about the sketching it roughly like wireframing so that you don't get lost in your process of building the project. It will also help you to make UI elements for your frontend.
+c. I know what you are thinking why should I do this I am no designer but you know what it's not about designing each piece it's just about sketching it roughly like wireframing so that you don't get lost in your process of building the project. It will also help you to make UI elements for your frontend.
 
 ![Coding the project](/assets/undraw_coding_6mjf.png "Coding the project")
 
@@ -75,11 +74,11 @@ b. Well if you can, you must try to document each and everything you do while do
 
 #### 5. Testing and Deployment
 
-a. Well by now you have completed your project and are ready to deploy it but a very crucial thing beginner developers forget is testing, testing is really important for any project if you really want to make industry ready apps then you have to test.
+a. Well by now you have completed your project and are ready to deploy it but a very crucial thing beginner developers forget is testing, testing is really important for any project if you really want to make industry-ready apps then you have to test.
 
 b. Also, test on different OS and different browsers that will help you find if there any vulnerability in your project and enable you to create a real masterpiece
 
-c. Now you can deploy your project, if you have made a static site then you can host it on many platforms like Netlify, Vercel, etc or if its a full-stack website with a backend and the frontend you have to use services like Heroku, Digital Ocean, etc
+c. Now you can deploy your project, if you have made a static site then you can host it on many platforms like Netlify, Vercel, etc,  or if its a full-stack website with a backend and the frontend you have to use services like Heroku, Digital Ocean, etc
 
 That's it guys I have told you the way in which you can make your projects more organized and efficient, now I know some of you are thinking that I don't do these things, man, then to my projects are awesome well these are my personal opinions through which I try to make things a slightly better, everybody has different approach if you think you can help us improve we would be glad to hear it and we can grow into a better community.
 
@@ -95,4 +94,4 @@ That's it guys I have told you the way in which you can make your projects more 
 
 Have you learned something new today let us know
 
-Reach out to us at [Twitter](https://twitter.com/kartikey_yadav7) or [Instagram](https://www.instagram.com/developers.domain/) where we provide a lot of content is simple and carousal form which you can enjoy
+Reach out to us at [Twitter](https://twitter.com/aviatecoders) or [Instagram](https://www.instagram.com/aviatecoders/) where we provide a lot of content in simple and carousal form which you can enjoy
