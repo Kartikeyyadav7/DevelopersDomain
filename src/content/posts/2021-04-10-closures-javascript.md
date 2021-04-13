@@ -82,8 +82,6 @@ What does that mean well three things back that claim
 var greet = function(){}
 ```
 
-
-
 2.We can pass a function as an argument to another function
 
 ```javascript
@@ -105,19 +103,13 @@ greet()()
 
 So basically what I am trying to say is function can do pretty much everything other data types can do in JS
 
-
-
 ### Higher-Order Functions (HOF)
 
 A HOF is a function that can return a function or a function that can take function for an arguments as you have seen from the above examples
 
-
-
-And we also know about the lexical scoping in JS and if you don't then you can refer to [this](https://developersdomain.netlify.app/execution-context-lexical-environmenet-scope-chain) article but in short, let me tell you
+And we also know about the lexical scoping in JS and if you don't then you can refer to [](https://developersdomain.netlify.app/execution-context-lexical-environmenet-scope-chain)[this](https://www.aviatecoders.com/execution-context-lexical-environmenet-scope-chain) article but in short, let me tell you
 
 Lexical scoping or static scoping means the available variable data and functions are dependent on where the function is defined
-
-
 
 ## Closures
 
@@ -167,8 +159,6 @@ work(99) //created
 work(800) // created :)
 ```
 
-
-
 Here we have created a function that creates a new Array of 7000 elements with ":)" and finally return it will give index well this process takes time if we call it again and again and is not very memory efficient
 
 What we can do instead is
@@ -197,7 +187,7 @@ Also with the help of closure, we can use encapsulation which means is a process
 
 Was the article helpful? Do you have any doubts? Any topic you would like us to cover?
 
-Reach out to us on [Twitter](https://twitter.com/kartikey_yadav7) and [Instagram](https://www.instagram.com/developers.domain/) where we try to provide more value in threads and carousal formats
+Reach out to us on [](https://twitter.com/kartikey_yadav7)[Twitter](https://twitter.com/aviatecoders) and [Instagram](https://instagram.com/aviatecoders) where we try to provide more value in threads and carousal formats
 
 Thank You for your time
 
