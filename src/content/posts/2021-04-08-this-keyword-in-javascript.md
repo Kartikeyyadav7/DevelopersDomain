@@ -11,15 +11,9 @@ featuredImage: /assets/this-cover.jpg
 
 Hey guys,
 
-
-
 The 'this' keyword is one of the important concepts in JS and is used everywhere and so it becomes very important for us to understand "*this*"
 
-
-
 But I know there is a lot of confusion regarding the "*this*" keyword and I did too when I was learning about it so don't worry it's ok if you don't understand it in the first go but I will try to hopefully make you understand what it is.
-
-
 
 Let's start simple
 
@@ -38,8 +32,6 @@ So does that mean that the "*this*" keyword is just the window object and nothin
 Well, you see the *"this"* keyword depends on where it is written i.e in which object it is defined.
 
 In whichever object it is defined it will refer to that particular object
-
-
 
 Let's understand this a little better by an example
 
@@ -64,8 +56,6 @@ See the *"this"* keyword always refers to the object in which it is defined so t
 Here as you can see the function hello is the property of the window object and if *"this"* is used inside the function it will refer to the window object
 
 As a tip always remember that whatever is to the right of the function of the method is the object the *"this"* keyword is referring here as you can see window.hello() so to the left of hello, there is the window object and so the *"this"* keyword is referring to the window object
-
-
 
 Let's see another example
 
@@ -113,16 +103,12 @@ Here as you can see it is the extension of the previous example
 
 Now here I have used *"this"* keyword to refer directly to the method sing now imagine if we had tons of lines of code in the sing function so it's correct to write all the code again the singAgain function, it's bad practice so that's why we use the *"this"* keyword
 
-
-
 So the two main important benefits of using the *"this"* keyword are
 
 1. Giving methods access to their objects
 2. Executing the same code for the multiple objects
 
 We have understood the first part in the above examples
-
-
 
 Let's see the second part
 
@@ -153,17 +139,15 @@ In the object worker, the *"this"* keyword defined in the helper function is ref
 
 These things help us in saving time and many lines of codes and helps in writing DRY code
 
-
-
 There are some extra concepts that we need to understand let's see them regarding the *"this"* keyword. (might get a little advanced)
 
 For the first concept, we need to understand what is the lexical scope and dynamic scope if you don't know let's see
 
-*In JS our lexical scope ( available data + variables where the function is defined) determines our available variables not where the function is called which is called dynamic scope*
+> *In JS our lexical scope ( available data + variables where the function is defined) determines our available variables not where the function is called which is called dynamic scope*
 
 What I mean here is in JS we have lexical scope the available data and variable are defined where the function is defined and it doesn't matter where the function is called which is dynamic scope
 
-If you want to know more about the lexical scope check out this blog [here](https://developersdomain.netlify.app/execution-context-lexical-environmenet-scope-chain)
+If you want to know more about the lexical scope check out this blog [](https://developersdomain.netlify.app/execution-context-lexical-environmenet-scope-chain)[here](https://www.aviatecoders.com/execution-context-lexical-environmenet-scope-chain)
 
 But there is an exception to this rule which is that the *"this"* keyword doesn't follow it
 
@@ -196,15 +180,11 @@ But why see the function singAgain( ) is called inside the sing( ) function it i
 
 Now if you remember I wrote a statement above and said that the *"this"* keyword is an exception to this rule which means that the " this" keyword is dynamically scoped and it doesn't matter where it is written but where the function is called.
 
-
-
 But there are ways to tackle this problem
 
 1. Using arrow function
 2. Declaring *"this"* keyword at the start and using the substitute in place of *"this"*
 3. Using bind
-
-
 
 Let's see each one by one
 
@@ -229,8 +209,6 @@ singer.sing()
 
 Here the first and the second console.log( ) will have the same value which is equal to the object "singer"
 
-
-
 2.Redefining it let's see what I mean
 
 ```javascript
@@ -251,8 +229,6 @@ singer.sing()
 
 As you can see from the above example we have stored the value of the *"this"* keyword inside the variable self when it was still referring to the singer object and used the declared variable self instead of the *"this"* keyword inside the singAgain function and it solves the issue kind of like Juggad
 
-
-
 3.Using the Bind method
 
 ```javascript
@@ -272,17 +248,13 @@ singer.sing()()
 
 You might get a little confused if you don't know about the bind method, you read about it here but here we are just binding the *"this"* keyword to the object "singer" and returning the function, but also notice that we have to call singer.sing( ) ( ) twice because then only it will return the second function
 
-
-
 So these were a few things related to the *"this"* keyword I know the last part might have got a little hard to understand as it uses other concepts too but doesn't worry if you don't understand when you learn about the arrow functions and bind method you will understand it eventually
 
 I hope you understood the main concept of the *"this"* keyword and what it is, always remember the line *"this"* keyword is the object that the function is the property of" and it will remind you of the *"this"* keyword, that's all for me
 
-
-
 Was the article helpful? Do you have any doubts? Any topic you would like us to cover?
 
-Reach out to us on [Twitter](https://twitter.com/kartikey_yadav7) and [Instagram](https://www.instagram.com/developers.domain/) where we try to provide more value in threads and carousal formats
+Reach out to us on [](https://twitter.com/kartikey_yadav7)[Twitter](https://twitter.com/aviatecoders) and [Instagram](https://instagram.com/aviatecoders) where we try to provide more value in threads and carousal formats
 
 Thank You for your time
 
