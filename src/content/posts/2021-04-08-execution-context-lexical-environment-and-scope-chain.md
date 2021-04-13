@@ -17,7 +17,7 @@ Let's get started
 
 ## **Execution Context**
 
-Now we know about the call stack (if you don't please refer to the last blog post [here](https://developersdomain.netlify.app/how-javascript-works)) and we know that functions that are called goes onto the call stack and after returning the functions they are popped off the call stack and it gets empty
+Now we know about the call stack (if you don't please refer to the last blog post [here](https://www.aviatecoders.com/how-javascript-works)) and we know that functions that are called goes onto the call stack and after returning the functions they are popped off the call stack and it gets empty
 
 *We can say that every function that goes into the call stack has its execution context*
 
@@ -32,8 +32,6 @@ function greetings(){
 
 greetings()
 ```
-
-
 
 Let's see this with an example
 
@@ -102,8 +100,6 @@ The same thing can be done with the functions as well we can define functions in
 
 So just remember that when we say lexical environment it just means where is that variable or function written in our code
 
-
-
 ## **Scope chain**
 
 Let's see and learn about what scope chain is
@@ -169,9 +165,7 @@ For the planet start it will have access to the global variables but not the pla
 For more explanation:-
 
 1. Let me explain how these functions are linked to each other - so the last function or the last child named greet( ) will have access to both var a and var b because they are their parent
-
 2. Now for hello( ) it has access to var a but it doesn't have the connection with greet( ) which is variable c so if you try to console.log(c) then it will throw a reference error
-
 3. For a start( ) it only has access to var its variable but not b or c and similarly it will give a reference error if we try to access those
 
 But the common thing is that every function has access to the global scope and its variables
@@ -212,7 +206,7 @@ Well these are concepts and theory of execution context, lexical scope, and scop
 
 Was the article helpful? Do you have any doubts? Any topic you would like us to cover?
 
-Reach out to us on [Twitter](https://twitter.com/kartikey_yadav7) and [Instagram](https://www.instagram.com/developers.domain/) where we try to provide more value in threads and carousal formats
+Reach out to us on [Twitter](https://twitter.com/aviatecoders) and [Instagram](https://instagram.com/aviatecoders) where we try to provide more value in threads and carousal formats
 
 Thank You for your time
 
