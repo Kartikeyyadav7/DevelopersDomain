@@ -146,6 +146,8 @@ These are the things you need to keep in mind while we are talking about hoistin
 
 One very last thing, I have always been a supporter of writing code that other developers can understand easily but hoisting makes things complicated and so I try to avoid hoisting but it is a cool concept in Js, and understand the language you are learning doesn't harm so...
 
+Reach out to us on [Twitter](https://twitter.com/aviatecoders) and [Instagram](https://instagram.com/aviatecoders) where we try to provide more value in threads and carousal formats
+
 Keep learning, keep coding
 
 Thank you
