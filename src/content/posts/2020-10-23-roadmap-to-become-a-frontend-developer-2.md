@@ -93,6 +93,6 @@ Join a community where you can ask doubts, I would recommend some discord or tel
 
 Hope you found this article useful
 
-Do let me know if any feedback through [Twitter](https://twitter.com/kartikey_yadav7) and [Instagram](https://www.instagram.com/developers.domain/)
+Do let me know if any feedback through [Twitter](https://www.instagram.com/aviatecoders/) and [Instagram](https://www.instagram.com/aviatecoders/)
 
 Happy coding
