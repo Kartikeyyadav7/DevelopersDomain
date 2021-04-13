@@ -253,6 +253,12 @@ export default App;
 
 ## Epilogue
 
-Here, I would like to conclude by just stating that as a developer it's our core responsibility to make the user interface look-alike irrespective of OS a user is using so this stands to be of utmost importance to have learned the process of making look button similar to each and every platform in react-native. There’s so much more you can do, but the steps in this blog will help you find your footing as you start creating custom UI components with React Native. Happy learning!!
+Here, I would like to conclude by just stating that as a developer it's our core responsibility to make the user interface look-alike irrespective of OS a user is using so this stands to be of utmost importance to have learned the process of making look button similar to each and every platform in react-native. There’s so much more you can do, but the steps in this blog will help you find your footing as you start creating custom UI components with React Native. 
+
+Reach out to us on [](https://twitter.com/kartikey_yadav7)[Twitter](https://twitter.com/aviatecoders) and [Instagram](https://instagram.com/aviatecoders) where we try to provide more value in threads and carousal formats
+
+Thank You for your time
+
+Keep learning, Keep coding :)
 
 <!--EndFragment-->
