@@ -4,9 +4,9 @@
     "titleTemplate": "%s",
     "description": "At Aviate Coders we provide the content related to Web development, design and anything related to technology",
     "siteUrl": "https://www.aviatecoders.com",
-    "image": "/assets/logopng.png",
+    "image": "/assets/favicon.png",
     "linkedInUsername": "kartikeyyadav",
     "twitterUsername": "@aviatecoders"
   },
-  "ga": "UA-177419186-1"
+  "ga": "G-1S25VPKX3G"
 }
