@@ -31,7 +31,7 @@ module.exports = {
     image: "/assets/logopng.png",
     linkedInUsername: "kartikeyyadav",
     twitterUsername: "@aviatecoders",
-    ga: "UA-177419186-1",
+    ga: "G-1S25VPKX3G",
   },
   plugins: [
     {
